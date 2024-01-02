@@ -128,7 +128,7 @@ class VectorSynchronizer extends olcsAbstractSynchronizer<VectorLayerCounterpart
       const bbs = context.featureToCesiumMap[id];
       if (bbs) {
         delete context.featureToCesiumMap[id];
-        bbs.forEach((bb) => {
+        bbs.forEach((bb: any) => {
           if (bb instanceof Cesium.Billboard) {
             context.billboards.remove(bb);
           }
