@@ -1,5 +1,5 @@
 {
-  "name": "ol-cesium",
+  "name": "@gaf-de/ol-cesium",
   "version": "2.16.1",
   "description": "OpenLayers Cesium integration library",
   "scripts": {
