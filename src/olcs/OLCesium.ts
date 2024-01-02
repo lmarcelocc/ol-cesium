@@ -127,7 +127,7 @@ class OLCesium {
   private boundingSphereScratch_: BoundingSphere = new Cesium.BoundingSphere();
   private synchronizers_: SynchronizerType[];
 
-  constructor(options: OLCesiumOptions) {
+  constructor(options: Partial<OLCesiumOptions>) {
     this.map_ = options.map;
 
     this.time_ = options.time || function() {
