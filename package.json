@@ -1,6 +1,6 @@
 {
   "name": "@gaf-de/ol-cesium",
-  "version": "2.16.1",
+  "version": "2.16.2",
   "description": "OpenLayers Cesium integration library",
   "scripts": {
     "build-examples": "cross-env NODE_ENV=production TARGET=examples webpack --progress --bail",
